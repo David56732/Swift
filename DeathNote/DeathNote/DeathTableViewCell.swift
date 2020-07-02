@@ -15,5 +15,6 @@ class DeathTableViewCell : UITableViewCell{
     
     @IBOutlet weak var nameLabel: UILabel!
    
-    @IBOutlet weak var detailsLabel: UILabel!
+    @IBOutlet weak var detailsLabel: UITextView!
+    
 }

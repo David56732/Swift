@@ -54,10 +54,30 @@ class DeathTableViewController : UITableViewController
         }
     }
     
+//    ДЛЯ УДАЛЕНИЯ ДАННЫХ User.defaults
+//    let domain = Bundle.main.bundleIdentifier!
+    
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.tableFooterView = UIView()
         self.tableView.backgroundColor = UIColor.black
+    
+        
+        // ДЛЯ УДАЛЕНИЯ ДАННЫХ User.defaults
+
+//        UserDefaults.standard.removePersistentDomain(forName: domain)
+//        UserDefaults.standard.synchronize()
+//        print(Array(UserDefaults.standard.dictionaryRepresentation().keys).count)
+//        print(UserDefaults.standard.array(forKey: "nameDeath") as Any)
+//        print(UserDefaults.standard.array(forKey: "descriptionDeath") as Any)
+//        print(UserDefaults.standard.array(forKey: "dayDeath") as Any)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        tableView.estimatedRowHeight = 90
+        tableView.rowHeight = UITableView.automaticDimension
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -71,7 +91,6 @@ class DeathTableViewController : UITableViewController
         cell.detailsLabel.text = descriptionDeath[indexPath.row]
         cell.layer.borderWidth = 7
         
-      
         return cell
     }
     
@@ -128,6 +147,7 @@ class DeathTableViewController : UITableViewController
         dayDeath.insert(fromDay, at: destinationIndexPath.row)
         tableView.reloadData()
     }
+    
     
     
 }
