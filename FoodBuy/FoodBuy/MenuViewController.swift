@@ -46,6 +46,7 @@ extension MenuViewController: UICollectionViewDataSource, UICollectionViewDelega
             let cell = groupsCollectionvView.dequeueReusableCell(withReuseIdentifier: "GroupCell", for: indexPath) as! GroupCell
             let group = menu.groups[indexPath.item]
             cell.setupCell(group: group)
+            cell.layer.cornerRadius = 10
             return cell 
         }else{
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ProductCell", for: indexPath) as! ProductCell

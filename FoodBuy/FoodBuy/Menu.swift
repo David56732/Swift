@@ -45,13 +45,12 @@ class Menu {
         let g1 = Group(name: "Суши", product: products1)
         let g2 = Group(name: "Роллы", product: products2)
         let g3 = Group(name: "Супы", product: products3)
-        let g4 = Group(name: "Суши", product: products1)
-        let g5 = Group(name: "Роллы", product: products2)
-        let g6 = Group(name: "Супы", product: products3)
-        let g7 = Group(name: "Суши", product: products1)
-        let g8 = Group(name: "Роллы", product: products2)
-        let g9 = Group(name: "Супы", product: products3)
-        // self.product = [p1, p2, p3, p4]
+        let g4 = Group(name: "Горячее", product: products1)
+        let g5 = Group(name: "Закуски", product: products2)
+        let g6 = Group(name: "Фирменное", product: products3)
+        let g7 = Group(name: "Напитки", product: products1)
+        let g8 = Group(name: "Соусы", product: products2)
+        let g9 = Group(name: "Другое", product: products3)
         
         self.groups = [g1, g2, g3, g4, g5, g6, g7, g8, g9]
     }

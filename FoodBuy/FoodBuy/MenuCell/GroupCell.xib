@@ -18,14 +18,14 @@
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPE-k4-1tZ">
                         <rect key="frame" x="10" y="20" width="227" height="21"/>
-                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
             </view>
-            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.96495729684829712" green="0.86666899919509888" blue="0.64992809295654297" alpha="0.9999389648" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="tintColor" red="0.96495729684829712" green="0.86666899919509888" blue="0.64992809295654297" alpha="0.9999389648" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="dPE-k4-1tZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="D1H-ix-vu3"/>
                 <constraint firstAttribute="trailing" secondItem="dPE-k4-1tZ" secondAttribute="trailing" constant="10" id="Ghn-AX-et6"/>
