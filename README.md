@@ -19,3 +19,20 @@
 ![Simulator Screen Shot - iPhone 11 - 2020-07-03 at 01 57 49](https://user-images.githubusercontent.com/45798298/86416341-4da47900-bcd2-11ea-8ece-b1fee4130acf.png)
 
 ![Simulator Screen Shot - iPhone 11 - 2020-07-03 at 01 58 01](https://user-images.githubusercontent.com/45798298/86416343-4da47900-bcd2-11ea-9388-47fc77c84b12.png)
+
+
+# FoodBuy
+![Simulator Screen Shot - iPhone 11 - 2020-07-06 at 01 58 29](https://user-images.githubusercontent.com/45798298/86544111-f64e1500-bf2c-11ea-9dea-b6912be515b7.png)
+
+# PhotoGallery
+![Simulator Screen Shot - iPhone 11 - 2020-07-06 at 01 59 15](https://user-images.githubusercontent.com/45798298/86544114-f817d880-bf2c-11ea-823a-2f0b275cfbd8.png)
+
+![Simulator Screen Shot - iPhone 11 - 2020-07-06 at 01 59 21](https://user-images.githubusercontent.com/45798298/86544115-f817d880-bf2c-11ea-9634-e659095a606e.png)
+
+![Simulator Screen Shot - iPhone 11 - 2020-07-06 at 01 59 33](https://user-images.githubusercontent.com/45798298/86544146-27c6e080-bf2d-11ea-8036-2d88f43e33e0.png)
+
+![Simulator Screen Shot - iPhone 11 - 2020-07-06 at 02 00 13](https://user-images.githubusercontent.com/45798298/86544147-28f80d80-bf2d-11ea-9d4a-f98b937dc688.png)
+
+![Simulator Screen Shot - iPhone 11 - 2020-07-06 at 02 00 32](https://user-images.githubusercontent.com/45798298/86544148-2990a400-bf2d-11ea-9a06-41b0b68b0e38.png)
+
+![Simulator Screen Shot - iPhone 11 - 2020-07-06 at 02 00 36](https://user-images.githubusercontent.com/45798298/86544149-2990a400-bf2d-11ea-9fd7-720b54aebbff.png)
