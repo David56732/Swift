@@ -17,16 +17,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p2" translatesAutoresizingMaskIntoConstraints="NO" id="Mub-rq-ZZ4">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="-44" y="0.0" width="508" height="896"/>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="XQq-MC-cc4">
-                                <rect key="frame" x="0.0" y="-26" width="414" height="948"/>
+                                <rect key="frame" x="-44" y="-26" width="508" height="948"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="cZv-eE-jOj">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="948"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="508" height="948"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="uAY-BJ-ROq">
-                                            <rect key="frame" x="0.0" y="75" width="414" height="823"/>
+                                            <rect key="frame" x="44" y="68" width="414" height="822"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="XDW-Ge-tWi">
                                                 <size key="itemSize" width="100" height="100"/>
@@ -46,12 +46,6 @@
                                             </cells>
                                         </collectionView>
                                     </subviews>
-                                    <constraints>
-                                        <constraint firstItem="uAY-BJ-ROq" firstAttribute="leading" secondItem="cZv-eE-jOj" secondAttribute="leading" id="DE6-XE-wId"/>
-                                        <constraint firstAttribute="bottom" secondItem="uAY-BJ-ROq" secondAttribute="bottom" constant="50" id="IQq-gS-ct0"/>
-                                        <constraint firstItem="uAY-BJ-ROq" firstAttribute="top" secondItem="cZv-eE-jOj" secondAttribute="top" constant="75" id="SCx-TW-Lm1"/>
-                                        <constraint firstAttribute="trailing" secondItem="uAY-BJ-ROq" secondAttribute="trailing" id="VDZ-lv-Yvn"/>
-                                    </constraints>
                                 </view>
                                 <blurEffect style="regular"/>
                             </visualEffectView>
@@ -61,9 +55,13 @@
                             <constraint firstItem="XQq-MC-cc4" firstAttribute="width" secondItem="Mub-rq-ZZ4" secondAttribute="width" id="2nQ-sO-Dc3"/>
                             <constraint firstAttribute="bottom" secondItem="Mub-rq-ZZ4" secondAttribute="bottom" id="3OZ-Jl-QsR"/>
                             <constraint firstItem="XQq-MC-cc4" firstAttribute="centerX" secondItem="Mub-rq-ZZ4" secondAttribute="centerX" id="50a-eV-tSU"/>
-                            <constraint firstItem="Mub-rq-ZZ4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5rf-QD-6lV"/>
+                            <constraint firstItem="Mub-rq-ZZ4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="-44" id="5rf-QD-6lV"/>
+                            <constraint firstItem="uAY-BJ-ROq" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="PBb-L7-1li"/>
                             <constraint firstItem="XQq-MC-cc4" firstAttribute="height" secondItem="Mub-rq-ZZ4" secondAttribute="height" multiplier="1.05804" id="V4J-vS-ZKA"/>
-                            <constraint firstItem="Mub-rq-ZZ4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="mIH-rf-zNm"/>
+                            <constraint firstItem="uAY-BJ-ROq" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="Xir-a7-32K"/>
+                            <constraint firstItem="uAY-BJ-ROq" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="1.02934" constant="-20" id="gan-ch-gEo"/>
+                            <constraint firstItem="uAY-BJ-ROq" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="jIq-v3-PwO"/>
+                            <constraint firstItem="Mub-rq-ZZ4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="50" id="mIH-rf-zNm"/>
                             <constraint firstItem="Mub-rq-ZZ4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="p84-TC-Ckz"/>
                             <constraint firstItem="XQq-MC-cc4" firstAttribute="centerY" secondItem="Mub-rq-ZZ4" secondAttribute="centerY" id="y9c-hT-zZf"/>
                         </constraints>
