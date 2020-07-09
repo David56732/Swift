@@ -38,5 +38,4 @@
 ![Simulator Screen Shot - iPhone 11 - 2020-07-06 at 02 00 36](https://user-images.githubusercontent.com/45798298/86544149-2990a400-bf2d-11ea-9fd7-720b54aebbff.png)
 
 # Api_Dota2
-![dota](https://user-images.githubusercontent.com/45798298/86871501-13c4df80-c0e3-11ea-8c1c-8b6a2a739e7e.png)
-
+![dota2](https://user-images.githubusercontent.com/45798298/86981976-cacb6480-c190-11ea-9bed-3739bd2d5562.png)
